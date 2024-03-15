@@ -1,7 +1,10 @@
 // import React, { useState } from "react";
 // import UseState from "./components/UseState.component";
 // import UseEffect from "./components/UseEffect.component";
-import UseCustom from "./components/UseCustom.component";
+// import UseCustom from "./components/UseCustom.component";
+// import UseRef from "./components/UseRef.component";
+// import UseMemo from "./components/UseMemo.component";
+import UseCallback from "./components/UseCallback.component";
 
 function App() {
   return (
@@ -9,7 +12,10 @@ function App() {
       <h1 className="text-3xl text-red-300">The ReactJS Training</h1>
       {/* <UseState /> */}
       {/* <UseEffect /> */}
-      <UseCustom />
+      {/* <UseCustom /> */}
+      {/* <UseRef /> */}
+      {/* <UseMemo /> */}
+      <UseCallback />
     </main>
   );
 
