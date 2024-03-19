@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1, "name": "Antony", "email": "antony.chiramel@infosys.com" },
+    { "id": 8, "name": "Test", "email": "kolowo5437@hdrlog.com" },
+    { "id": 2, "name": "Anubhav", "email": "anubhavkumar.sharma@infosys.com" },
+    { "id": 3, "name": "Garima", "email": "garima.negi@infosys.com" },
+    { "id": 4, "name": "Lovepreet", "email": "lovepreet.singh05@infosys.com" },
+    { "id": 5, "name": "Shree Priya", "email": "shreepriya.s@infosys.com" },
+    { "id": 6, "name": "Sirisha", "email": "sirisha.sidhamurthi@infosys.com" },
+    { "id": 7, "name": "Shravya", "email": "vemula.shravya@infosys.com" }
+  ]
+}

@@ -1,5 +1,33 @@
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import App from "./App.jsx";
+import Layout from "./pages/Layout.page";
+import Home from "./pages/Home.page";
+import SingleEmail from "./pages/SingleEmail.page";
+import BulkEmail from "./pages/BulkEmail.page";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/singleEmail",
+        element: <SingleEmail />,
+      },
+      {
+        path: "/bulkEmail",
+        element: <BulkEmail />,
+      },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
+);
